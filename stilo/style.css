@@ -104,10 +104,10 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-padrao);
-    color: var(--cor4);
+    color: var(--cor2);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     text-indent: 8px;
 }
 
@@ -140,9 +140,16 @@ main a:hover {
     color: var(--cor4);
 }
 
+main img.gif {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
 
-main img {
-    width: 100%;
+main img.pequenina {
+    max-width:350px;
+    display: block;
+    margin: auto;
 }
 
 main img.pequena {
