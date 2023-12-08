@@ -9,12 +9,12 @@
 }
 
 :root {
-    --cor0:#9ed2fd;
-    --cor1:#1691F5;
-    --cor2:#176AFF;
-    --cor3:#193CE6;
-    --cor4:#1A14FF;
-    --cor5:#4614F5;
+    --cor0:#FF01CF;
+    --cor1:#993D88;
+    --cor2:#330A2C;
+    --cor3:#663D5F;
+    --cor4:#332931;
+    --cor5:#FFFFFF;
 
     --fonte-padrao: Arial, Verdana, Helvetica,sans-serif;
     --fonte-destaque:'Open sans', cursive;
@@ -27,7 +27,7 @@
 }
 
 body {
-    background-color:#c5ebd5;
+    background-color:#993D88;
     font-family: var(--fonte-padrao);
 }
 
@@ -44,7 +44,7 @@ header {
 }
 
 header > h1 {
-    color: white;
+    color: var(--cor4);
     font-family: var(--fonte-destaque);
     font-size: 2.em;
     font-weight: normal;
@@ -55,7 +55,7 @@ header > h1 {
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    color: white;
+    color: var(--cor2);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -96,7 +96,7 @@ main {
 }
 
 main h1 {
-    color: var(--cor5);
+    color: var(--cor0);
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.8em;
@@ -140,12 +140,19 @@ main a:hover {
     color: var(--cor4);
 }
 
+
 main img {
     width: 100%;
 }
 
 main img.pequena {
     max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.truck {
+    max-width: 250px;
     display: block;
     margin: auto;
 }
