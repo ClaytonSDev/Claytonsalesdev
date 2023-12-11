@@ -29,4 +29,13 @@ charset "utf-8";
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    font: normal 18pt Arial;
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+div#res {
+    margin-top: 20px;
 }
