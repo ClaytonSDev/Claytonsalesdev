@@ -204,13 +204,30 @@ aside > ul {
     columns: 2;
 }
 
+
 footer {
     background-color: var(--cor3);
     color: white;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
+    line-height: 50px;
+    height: 100px;
+    padding: 28px;
 }
+
+footer ul {
+    float: right;
+    display: table;
+}
+
+footer ul li {
+    display: table-cell;
+    vertical-align:middle;
+    padding: 10px;
+}
+
+footer ul li img {
+    display: block;
+    padding: 10px;
+} 
 
 footer a{
     color: white;
