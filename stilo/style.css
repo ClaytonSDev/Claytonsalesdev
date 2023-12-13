@@ -204,30 +204,35 @@ aside > ul {
     columns: 2;
 }
 
+.redes ul {
+    display: flex;
+    justify-content: center;
+    background: var(--cor1);
+    margin: 0px;
+    padding: 0px;
+}
+
+.redes ul a {
+    display: block;
+    padding: 0px;
+}
+
+.redes ul li a img {
+    max-width: 40px;
+
+}
 
 footer {
     background-color: var(--cor3);
     color: white;
     line-height: 50px;
-    height: 100px;
+    height: 0px;
     padding: 28px;
 }
 
-footer ul {
-    float: right;
-    display: table;
+footer p {
+    text-align: center;
 }
-
-footer ul li {
-    display: table-cell;
-    vertical-align:middle;
-    padding: 10px;
-}
-
-footer ul li img {
-    display: block;
-    padding: 10px;
-} 
 
 footer a{
     color: white;
