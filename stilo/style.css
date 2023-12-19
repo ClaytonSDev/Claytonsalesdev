@@ -52,6 +52,13 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
+header > img {
+    display: block;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 300px;
+}
+
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
@@ -112,6 +119,12 @@ main h2 {
     text-indent: 8px;
 }
 
+.banner {
+    display: flex;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 main p {
     margin: 15px 0px;    
